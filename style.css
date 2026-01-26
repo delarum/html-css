@@ -38,3 +38,6 @@ a:active {
 } 
  div{color: cadetblue;} /* applies to everything in the div */
 div > p{color: burlywood;} /*applies to direct children only
+you create a new css file for diffrent files by saving it with css extentions
+then link it to your html file using link tag in the head section*/
+
