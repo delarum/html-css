@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning HTML and CSS</title>
+    <style>
+        h1 {
+            color: blue;
+        }
+        /* internal styling comments */
+    </style>
 </head>
 <body>
+    <h2>index</h2>
     <header>
-        <nav>
+        <nav id="navbar">
             <ul>
                 <li><a href="/">home</a></li>
                 <li><a href="links.html">Links</a></li>
@@ -16,6 +24,23 @@
                 <li><a href="tables.html">Tablees</a></li>
             </ul>
         </nav>
+        <main class="zindua">
+            <h1 class="heading">Welcome to Zindua school</h1>
+
+            <div class="intro">
+                <h1>Welcome to Zindua school</h1>
+            <!-- inline styling -->
+             <p>Zindua is a coding school...</p>
+</div>
+             <h1>Unordered list</h1>
+             <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+             </ul>
+        </main>
     </header>
+     <p>Visit <a href="http://zinduaschool.com/financing-options/" target="_blank" title="go to zindua website">For more info</a></p>
+     
 </body>
 </html>
