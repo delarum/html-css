@@ -1,0 +1,157 @@
+h2 {font-size: 100px; color: #414833;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-indent: 3%;
+letter-spacing: 5px;
+/* text-decoration: underline;} */
+text-decoration-line: overline;
+text-shadow: #4421d0;}{
+h1{ text-align: center;
+;}
+.unit-mm {
+            font-size: 5mm;
+        }
+        .unit-cm {
+            font-size: 1cm;
+        }
+        .unit-inch {
+            font-size: 0.5in;
+            color: aquamarine;
+        }
+        .unit-quarter {
+            font-size: 40Q; color:  rgb(172, 35, 35);
+        }
+
+    .unit-em {
+            font-size: 2em;
+            color: hsl(120, 100%, 50%);
+        }
+        .unit-rem {
+            font-size: 1.5rem;
+        }
+        .unit-vw {
+            font-size: 5vw;
+        }
+        .unit-vh {
+            font-size: 5vh;
+        }
+        .unit-percent {
+            font-size: 150%;
+        }
+
+
+
+        /* body { background-image: url('assets/image.png');
+        background-repeat: no-repeat;
+
+        background-position: center;
+        background-size: cover; */
+    }
+    h1{
+  font-family: "Momo Signature", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.small {
+            font-size: small;
+        }
+
+        .medium {
+            font-size: medium;
+        }
+
+        .larger {
+            font-size: larger;
+        }
+
+        .px {
+            font-size: 18px;
+        }
+
+        .percent {
+            font-size: 120%;
+        }
+
+    .normal{font-weight: normal;}
+    .bold{font-weight: bold;}
+    .lighter{font-weight: lighter;}
+    .number{font-weight: 700;}
+
+
+    .images .image1{
+        /* width: 200px;
+        height: auto;
+        border-radius: 20px; */
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+.images .image2{
+         width: 200px;
+        height: auto;
+        border-radius: 20px; }
+
+    
+        .images .image3{
+         width: 200px;
+        height: auto;
+        border-radius: 20px; 
+    border: 7px solid rgb(118, 196, 214);}
+
+    .images .image4{
+         width: 200px;
+        height: auto;
+        filter: blur(3px);
+        margin: 10px; }
+
+    .images .image5{
+         width: 200px;
+        height: auto;
+        filter: invert(110%);}
+
+    .images .image6{
+         width: 200px;
+        height: auto;
+        filter: saturate(10%)}
+
+    .images .image7{
+         width: 200px;
+        height: auto;
+        filter: sepia(100%);}
+        .imag2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            border: 2px;
+        }
+
+    .imag2 .image8{
+         width: 200px;
+        height: auto;
+        border: 1px solid;}
+
+        .image-container {
+        position: relative; /* Needed for absolute positioning of text */
+        display: inline-block;
+        width: 400px; /* Adjust as needed */
+    }
+
+    /* The image */
+    .image-container img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 8px; /* Optional rounded corners */
+    }
+
+    /* The text overlay */
+    .overlay-text {
+        position: absolute;
+        top: 50%; /* Center vertically */
+        left: 50%; /* Center horizontally */
+        transform: translate(-50%, -50%); /* Perfect centering */
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+       

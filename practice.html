@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="practice.css">
+</head>
+<body>
+     <h3> Tutorialspoint </h3>
+    <p>CSS Media Type - Print</p>
+    <p>
+        Background is white for printable version of this page.
+        Check out...
+    </p>
+
+    <button onclick="printPage()">Print Page</button>
+    <script>
+    function printPage() {
+        window.print();
+    }
+    </script>
+    <div class="all">
+
+    <h3 >Tutorialspoint </h3>
+    <p> CSS Media Type - All </p>
+    <p> 
+        In printable version or any screen size, the 
+        styles of this page is same.
+    </p>
+    <button onclick="printPage()">
+        Print Page
+    </button>
+    <script>
+        function printPage() {
+        window.print();
+        }
+    </script> 
+    </div>
+
+     <p>
+        Orientation of child elements depend on screen size,
+        for screen size less than 500px, children align in 
+        two different columns. 
+    </p>
+    <div class="container">
+        <div class="child" > HTML </div>
+        <div class="child"> CSS </div>
+    </div>
+
+    <h1>Tutorialspoint</h1>
+    <p class="screen">CSS Media Type - Screen</p>
+    <p class="screen">Resize the browser size to see the effect.</p>
+    
+</body>
+</html>

@@ -1,0 +1,51 @@
+ body{
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+        @media print {
+            body { 
+                background-color: white;
+                color: black;
+                padding: 10px;
+            }
+        }
+        button {
+            background-color: aqua;
+            padding: 5px;
+        } 
+
+         @media all{
+            body {
+                background-color: black;
+                color: white;
+                padding: 10px;
+            }
+        }
+
+         .container {
+            display: flex;
+            flex-direction: row;
+            padding: 10px;
+            gap: 10px;
+        }
+        .child{
+            padding: 10px;
+            background-color: #edabed;
+            border: 2px solid;
+        }
+        @media screen and (max-width: 500px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+
+         p {
+        color: blue;
+    }
+    @media (600px < width) {
+          p{
+            background-color: yellow;
+            color: red;
+        }
+    }
